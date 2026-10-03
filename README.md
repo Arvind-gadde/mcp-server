@@ -1,5 +1,4 @@
-# MCP Servers Explained + Descope (video build)
-
+# MCP SERVERS LEARNING AND IMPLEMENTING REAL WORLD TYPE AUTH AND LOCAL AND REMOTE CONNECTION SCOPES
 Three versions of the same "notes" MCP server, built in the order you show them on camera.
 
 - Script: `script.md` (theory fully scripted, build + Descope as bullets)
@@ -60,11 +59,10 @@ uv run test_client.py
 Cursor: `{"notes": {"url": "http://localhost:8000/mcp"}}`. Point out that the same URL works from any machine
 on the network and there is no "who" anywhere.
 
-## v3: Descope
-
-### Console (one time, about 2 minutes)
-
-1. Sign up at https://www.descope.com (Free Forever tier) and open the console.
+## v3: 3rd Party Intigration (descope)
+Used becasue it was completely free
+                                |
+1. https://www.descope.com (Free Forever tier) and open the console.
 2. **Agentic Identity Hub -> MCP Servers -> + MCP Server**. Name it `notes`.
 3. **MCP Server URL**: `http://localhost:8000/mcp` (change to the public URL when you deploy). This becomes the `aud` claim.
 4. **Client registration**: enable **Dynamic Client Registration (DCR)** and **CIMD**. This is what lets Cursor / Claude register themselves.
