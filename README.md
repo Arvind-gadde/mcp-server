@@ -1,9 +1,6 @@
 # MCP SERVERS LEARNING AND IMPLEMENTING REAL WORLD TYPE AUTH AND LOCAL AND REMOTE CONNECTION SCOPES
 Three versions of the same "notes" MCP server, built in the order you show them on camera.
 
-- Script: `script.md` (theory fully scripted, build + Descope as bullets)
-- Brand-facing script (Google Doc): https://docs.google.com/document/d/1PCnNyEp0rB_m-_FViT_pYCKwViQmGUElSLTVpRmpPqQ/edit
-- Theory slide deck: `presentation/index.html` (open locally, arrows to move, F for fullscreen) or https://clever-opera-nnya.here.now/
 
 | File | What it is | Auth |
 |---|---|---|
